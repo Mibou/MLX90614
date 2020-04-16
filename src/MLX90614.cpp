@@ -30,9 +30,9 @@ MLX90614::MLX90614(void) : state(off),
 
 bool MLX90614::initialise(void)
 {
-  // For Calunium
-  sdaPin = 16;
-  sclPin = 19;
+  // For Wemos D1
+  sdaPin = 4;
+  sclPin = 5;
   powerPin = 18;
   dualSensor = false;
 
